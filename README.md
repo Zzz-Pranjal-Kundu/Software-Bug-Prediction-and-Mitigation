@@ -113,12 +113,13 @@ Each classifier is evaluated using:
 The system expects a CSV file with the following structure:
 
 
-Column	Description
-Metric1	First code metric (e.g., cyclomatic complexity)
-Metric2	Second code metric (e.g., lines of code)
-...	...
-MetricN	Nth code metric
-bug	Target variable (0: no bug, 1: bug)
+| Column | Description |
+|--------|-------------|
+| Metric1 | First code metric (e.g., cyclomatic complexity) |
+| Metric2 | Second code metric (e.g., lines of code) |
+| ... | ... |
+| MetricN | Nth code metric |
+| bug | Target variable (0: no bug, 1: bug) |
 
 ## 📝 Output
 
