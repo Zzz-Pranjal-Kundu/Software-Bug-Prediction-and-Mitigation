@@ -25,6 +25,7 @@ Install required packages:
 
 ```bash
 pip install pandas scikit-learn numpy matplotlib seaborn
+```
 
 ## 📁 Project Structure
 software_bug_prediction/
@@ -62,6 +63,7 @@ Run the main script to execute all classifiers:
 
 ```bash
 python main.py
+```
 
 ### Individual Classifiers
 
@@ -71,6 +73,7 @@ You can run individual classifiers directly:
 python classifiers/decision_tree.py
 python classifiers/random_forest.py
 # ... etc for other classifiers
+```
 
 ### Ensemble Model
 
@@ -78,6 +81,7 @@ Run the ensemble classifier:
 
 ```bash
 python ensemble.py
+```
 
 ### Metrics Analysis
 
@@ -85,6 +89,7 @@ Analyze code metrics and their importance:
 
 ```bash
 python metrics_analysis.py
+```
 
 ## 🔧 Configuration
 
