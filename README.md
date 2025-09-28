@@ -30,31 +30,18 @@ pip install pandas scikit-learn numpy matplotlib seaborn
 ## 📁 Project Structure
 software_bug_prediction/
 ├── classifiers/          # Individual classifier implementations
-
 │   ├── decision_tree.py
-
 │   ├── random_forest.py
-
 │   ├── naive_bayes.py
-
 │   ├── svm.py
-
 │   ├── knn.py
-
 │   ├── mlp.py
-
 │   ├── ada_boost.py
-
 │   ├── gradient_boosting.py
-
 │   └── logistic_regression.py
-
 ├── ensemble.py          # Ensemble classifier combining all models
-
 ├── main.py             # Main execution script
-
 ├── metrics_analysis.py # Code metrics analysis utilities
-
 └── README.md
 
 ## 🏗️ Classifiers Implemented
